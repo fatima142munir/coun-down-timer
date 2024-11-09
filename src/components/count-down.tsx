@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
  
 export default function CountDown(){
 
-    const [display, setDisplay] = useState<string>("time up");
     const [duration, setDuration] = useState<number | string>("");
     const [timeLeft, setTimeLeft] = useState<number>(0);
     const [isActive, setIsActive] = useState<boolean>(false);
